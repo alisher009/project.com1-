@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+/* ----------------------------------Alisher------------------------------------ */
+.block_alish {
+    width: 100%;
+    height: 40px;
+    background: #FED097;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.block_alish2 {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.block_alish2 p a {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+  
+}
+
+#home {
+    margin-top: -70px;
+    height: 800px;
+    background-size: cover;
+    background-image: url(../Img/blob_https___auraglow.com_4b288600-600a-42da-a0ed-e0576f433042);
+    z-index: -1;
+ 
+}
+
+.nav_manu_alish {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Yellowtail', cursive;
+}
+.window-scroll {
+    background: #08263f;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    transition: 1000ms ease;
+}
+
+.nav_container_alish a {
+    color: white;
+}
+
+
+.wraper {
+    max-width: 1282px;
+    margin: 0 auto;
+ 
+}
+
+.content {
+    max-width: 1282px;
+    margin: 0 auto;
+}
+
+
+.icon_1 {
+    position: absolute;
+    left: 92px;
+    top: 15px;
+}
+
+.block_cont {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    height: 68px;
+
+}
+
+.nav_manu_alish li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+.block_cont img {
+    fill: white;
+    color: #FFFF;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+.shoping{
+  
+}
+
+.block_text {
+    position: relative;
+    max-width: 545px;
+    height: 266px;
+    left: -50px;
+    top: 400px;
+     display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.block_text_info h1 {
+    font-size: 81px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 40px;
+    float: initial;
+}
+
+.btn_text_info {
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #225b93;
+    cursor: pointer;
+    border: none;
+}
+
+.btn_text_info a {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.btn_text_info:hover {
+    background-color: #4d89c5;   
+
+}
+
+#block2 {
+    height: 550px;
+    background-color: #08263f;
+}
+    .block2_text_h2{
+        padding-top: 130px;
+        text-align: center;
+        color:#fed097;
+        font-family: 'Yellowtail', cursive;
+        font-size: 20px;
+        line-height: 1.5;
+        text-align: center;
+        display: block;
+        margin: 0 auto 30px;
+    }
+.block2_text_p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    line-height: 46px;
+    text-align: center;
+    width: calc(66.66667vw - 98px);
+    max-width: 850px;
+    margin: 0 auto;
+    color: white;
+}
+
+
+
+#service {
+    padding: 80px 60px;
+    background: #edf3f6;
+    color: #031622;
+}
+
+#service h2 {
+    color: #031622;
+
+}
+
+
+
+.service_block h3 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #031622;
+    margin: 35px 60px 15px;
+    
+}
+
+.service_block p {
+    font-size: 18px;
+    color: #031622;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+
+      
+    }
+    .service_block {
+        width: 359px;
+        height: 230px;
+        align-items: center;
+        /* background: #000; */
+    }
+
+
+h2 {
+
+    font-size: 38px;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: normal;
+    margin: 0px 0 25px 0;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0 auto;
+}
+
+.service_wrapper {
+    margin: 0 auto !important;
+    padding: 40px 0 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin: 0 auto;
+}
+
+.service_icon span {
+    display: block;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 50%;
+    /* background: #000; */
+    align-items: center;
+}
+
+.service_icon i {
+
+    color: #282424;
+    font-size: 40px;
+    margin-top: 0;
+    position: relative;
+    top: 20px;
+    z-index: 20;
+    display: block;
+    text-align: center;
+}
+.row{
+    margin-left: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+/* --------------------------------------------------------------------------------------- */
