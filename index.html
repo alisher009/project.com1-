@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css/style.css">
     <link rel="stylesheet" href="./style.css/burger.css">
+    <link rel="stylesheet" href="./anim/animate.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="./media.css">
 
     <title>Document</title>
@@ -87,8 +89,8 @@
         <section id="block2">
 
             <div class="wraper">
-                <div class="block2">
-                    <h2 class="block2_text_h2">Hi, we’re Auraglow.</h2>
+                <div data-wow-duration="2s" class="block2  wow animate__animated   animate__bounceInUp animate_delay-2s ">
+                    <h2 class="block2_text_h2   ">Hi, we’re Auraglow.</h2>
                     <p class="block2_text_p">We’re an oral care company dedicated to celebrating the unique grins, cherishing the quirky
                         expressions, and turning our expertise into the thing we love <br> most—authentic smiles.</p>
 
@@ -164,6 +166,10 @@
     </div>
 
     <script src="./script.js"></script>
+    <script src="./anim/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 </body>
 
 </html>
