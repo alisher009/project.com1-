@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+.amina-container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.amina-body-top {   
+    height: 600px;
+    position: relative;
+    background-color: #EDF3F6;
+}
+.amina-body-top-center {
+    width: 848px;
+    height: 160px;
+    position: absolute;
+    top: 204px;
+    left: 296px;
+}
+.amina-p {
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 40px;
+}
+.amina-img {
+    width: 33px;
+    height: 44px;
+    position: absolute;
+    left: 50%;
+    top: -50px;
+}
+.amina-body-bottom {
+    background-color: #08263F;
+    height: 1094px;
+    position: relative;
+}
+.amina-image {
+    width: 1407px;
+    height: 580px;
+    position: absolute;
+    top: 319px;
+    left: 16px;
+}
+.amina-textp {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #FED097;
+    position: absolute;
+    left: 645px;
+    top: 114px;
+}
+.amina-texth2 {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 183px;
+    left: 452px;
+}
